@@ -492,7 +492,7 @@ python analyze_volume.py
 
 ### Druggability Assessment
 
-**Overall Classification: HIGHLY DRUGGABLE** ⭐⭐⭐⭐⭐
+**Overall Classification: HIGHLY DRUGGABLE** 
 
 **Criteria Met:**
 1. ✅ Pocket Stability (RMSD < 0.2 nm)
