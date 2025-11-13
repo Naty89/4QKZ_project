@@ -1,0 +1,19 @@
+; nvt.mdp
+integrator = md
+nsteps = 50000        ; 100 ps with dt=0.002 ps
+dt = 0.002
+tcoupl = V-rescale
+tc-grps = Protein Non-Protein
+tau_t = 0.1 0.1
+ref_t = 300 300
+continuation = no
+constraint_algorithm = lincs
+constraints = all-bonds
+cutoff-scheme = Verlet
+nstlist = 10
+coulombtype = PME
+rcoulomb = 1.0
+rvdw = 1.0
+pbc = xyz
+DispCorr = EnerPres
+
